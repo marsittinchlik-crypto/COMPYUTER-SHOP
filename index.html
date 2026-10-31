@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Computer Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        🚚 500 000 so‘mdan yuqori buyurtmalarga yetkazib berish bepul
+    </div>
+
+    <header class="header">
+        <a class="logo" href="#home">
+            <span class="logo-mark">T</span>
+            Tech<span>Zone</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav class="nav" id="nav">
+            <a href="#home">Bosh sahifa</a>
+            <a href="#products">Mahsulotlar</a>
+            <a href="#about">Biz haqimizda</a>
+            <a href="#contact">Aloqa</a>
+        </nav>
+
+        <div class="header-actions">
+            <a class="cart-link" href="#products">
+                🛒 Savat <b id="cartCount">0</b>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <span class="eyebrow">YANGI AVLOD TEXNIKASI</span>
+
+                <h1>
+                    Texnologiya bilan
+                    <br>
+                    <span>kelajak sari.</span>
+                </h1>
+
+                <p>
+                    O‘qish, ish va gaming uchun eng yaxshi
+                    kompyuterlar, noutbuklar va aksessuarlar.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#products">
+                        Xarid qilish →
+                    </a>
+
+                    <a class="btn btn-ghost" href="#about">
+                        Biz haqimizda
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>1 200+</strong>
+                        <small>Mamnun mijoz</small>
+                    </div>
+
+                    <div>
+                        <strong>350+</strong>
+                        <small>Mahsulot turi</small>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <small>Yordam xizmati</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glow"></div>
+
+                <div class="hero-product">
+                    <div class="monitor">
+                        <div class="screen">
+                            <div class="screen-orb"></div>
+                            <span>TECH<br>ZONE</span>
+                        </div>
+                        <div class="monitor-stand"></div>
+                    </div>
+
+                    <div class="keyboard"></div>
+                    <div class="mouse"></div>
+
+                    <div class="floating-chip">
+                        ⚡ PERFORMANCE
+                    </div>
+
+                    <div class="floating-tag">
+                        NEW<br><b>2026</b>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- BENEFITS -->
+        <section class="benefits">
+
+            <article>
+                <span>🚀</span>
+                <div>
+                    <b>Tez yetkazib berish</b>
+                    <small>Tez va xavfsiz</small>
+                </div>
+            </article>
+
+            <article>
+                <span>🛡️</span>
+                <div>
+                    <b>Rasmiy kafolat</b>
+                    <small>Har bir mahsulotga</small>
+                </div>
+            </article>
+
+            <article>
+                <span>💳</span>
+                <div>
+                    <b>Qulay to‘lov</b>
+                    <small>Naqd va karta orqali</small>
+                </div>
+            </article>
+
+            <article>
+                <span>🎧</span>
+                <div>
+                    <b>Mutaxassis yordami</b>
+                    <small>Tanlashda yordam</small>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="section products-section" id="products">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">BIZNING KATALOG</span>
+                    <h2>Ommabop mahsulotlar</h2>
+                    <p>O‘zingizga mos texnikani tanlang.</p>
+                </div>
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input id="searchInput" type="search" placeholder="Mahsulot qidirish...">
+                </div>
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="filter active" data-category="all">
+                    Barchasi
+                </button>
+
+                <button class="filter" data-category="laptop">
+                    Noutbuklar
+                </button>
+
+                <button class="filter" data-category="computer">
+                    Kompyuterlar
+                </button>
+
+                <button class="filter" data-category="accessory">
+                    Aksessuarlar
+                </button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+
+                <!-- PRODUCT 1 -->
+                <article class="product-card" data-category="laptop" data-name="AeroBook Pro 15">
+
+                    <div class="product-image laptop-art">
+                        <span class="product-label">TOP</span>
+
+                        <div class="laptop-device">
+                            <div class="laptop-screen">
+                                <div class="wallpaper"></div>
+                            </div>
+                            <div class="laptop-base"></div>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">NOUTBUK</span>
+                        <h3>AeroBook Pro 15</h3>
+                        <p>Core i7 · 16GB RAM · 512GB SSD</p>
+
+                        <div class="product-bottom">
+                            <strong>12 500 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PRODUCT 2 -->
+                <article class="product-card" data-category="computer" data-name="Gaming PC Xtreme">
+
+                    <div class="product-image pc-art">
+                        <span class="product-label sale">-10%</span>
+
+                        <div class="pc-case">
+                            <div class="pc-glass">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">KOMPYUTER</span>
+                        <h3>Gaming PC Xtreme</h3>
+                        <p>Ryzen 7 · RTX 4070 · 32GB RAM</p>
+
+                        <div class="product-bottom">
+                            <strong>18 900 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PRODUCT 3 -->
+                <article class="product-card" data-category="accessory" data-name="Pro Mechanical Keyboard">
+
+                    <div class="product-image keyboard-art">
+                        <div class="keys">
+                            ▦ ▦ ▦ ▦ ▦<br>
+                            ▦ ▦ ▦ ▦ ▦<br>
+                            ▦ ▦ ▦ ▦ ▦
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">AKSESSUAR</span>
+                        <h3>Pro Mechanical Keyboard</h3>
+                        <p>RGB · Blue Switch · USB-C</p>
+
+                        <div class="product-bottom">
+                            <strong>850 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PRODUCT 4 -->
+                <article class="product-card" data-category="accessory" data-name="Ultra Gaming Mouse">
+
+                    <div class="product-image mouse-art">
+                        <div class="mouse-shape">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">AKSESSUAR</span>
+                        <h3>Ultra Gaming Mouse</h3>
+                        <p>16 000 DPI · RGB · Wireless</p>
+
+                        <div class="product-bottom">
+                            <strong>490 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PRODUCT 5 -->
+                <article class="product-card" data-category="laptop" data-name="CreatorBook Air 14">
+
+                    <div class="product-image laptop-art silver">
+                        <div class="laptop-device">
+                            <div class="laptop-screen">
+                                <div class="wallpaper purple"></div>
+                            </div>
+                            <div class="laptop-base"></div>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">NOUTBUK</span>
+                        <h3>CreatorBook Air 14</h3>
+                        <p>Core i5 · 8GB RAM · 256GB SSD</p>
+
+                        <div class="product-bottom">
+                            <strong>8 200 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PRODUCT 6 -->
+                <article class="product-card" data-category="computer" data-name="Office PC Mini">
+
+                    <div class="product-image pc-art office-art">
+                        <div class="mini-pc">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="category-name">KOMPYUTER</span>
+                        <h3>Office PC Mini</h3>
+                        <p>Core i3 · 8GB RAM · 256GB SSD</p>
+
+                        <div class="product-bottom">
+                            <strong>5 600 000 so‘m</strong>
+                            <button class="add-cart">+</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="no-results" id="noResults" hidden>
+                Hech narsa topilmadi.
+            </p>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about-section" id="about">
+
+            <div class="about-visual">
+                <div class="about-icon">⌘</div>
+
+                <div class="about-sticker">
+                    TECH<br>
+                    <b>SMART</b><br>
+                    CHOICE
+                </div>
+            </div>
+
+            <div class="about-copy">
+                <span class="eyebrow">TECHZONE HAQIDA</span>
+
+                <h2>
+                    Texnika tanlash endi
+                    <span>osonroq.</span>
+                </h2>
+
+                <p>
+                    TechZone — zamonaviy kompyuter texnikalari
+                    va aksessuarlarini taklif qiluvchi do‘kon.
+                    Maqsadimiz — har bir mijozga ehtiyojiga mos,
+                    sifatli va ishonchli texnikani topishda yordam berish.
+                </p>
+
+                <ul>
+                    <li>✓ Sifatli mahsulotlar</li>
+                    <li>✓ Tajribali konsultantlar</li>
+                    <li>✓ Kafolat va xizmat</li>
+                </ul>
+
+                <a class="btn btn-primary" href="#contact">
+                    Biz bilan bog‘laning →
+                </a>
+            </div>
+
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+
+            <div>
+                <span class="eyebrow">YANGILIKLARDAN XABARDOR BO‘LING</span>
+
+                <h2>Yangi takliflarni o‘tkazib yubormang.</h2>
+
+                <p>
+                    Yangiliklar va maxsus chegirmalar haqida xabar oling.
+                </p>
+            </div>
+
+            <form id="newsletterForm">
+                <input type="email" placeholder="Email manzilingiz" required>
+
+                <button class="btn btn-primary" type="submit">
+                    Obuna bo‘lish →
+                </button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <a class="logo" href="#home">
+                    <span class="logo-mark">T</span>
+                    Tech<span>Zone</span>
+                </a>
+
+                <p>
+                    Texnologiya olamidagi ishonchli hamkoringiz.
+                </p>
+            </div>
+
+            <div>
+                <h4>Bo‘limlar</h4>
+                <a href="#home">Bosh sahifa</a>
+                <a href="#products">Mahsulotlar</a>
+                <a href="#about">Biz haqimizda</a>
+            </div>
+
+            <div>
+                <h4>Aloqa</h4>
+                <a href="tel:+998901234567">+998 90 123 45 67</a>
+                <a href="mailto:info@techzone.uz">
+                    info@techzone.uz
+                </a>
+                <span>Toshkent, O‘zbekiston</span>
+            </div>
+
+            <div>
+                <h4>Ijtimoiy tarmoqlar</h4>
+                <a href="#">Telegram ↗</a>
+                <a href="#">Instagram ↗</a>
+                <a href="#">YouTube ↗</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 TechZone. Barcha huquqlar himoyalangan.
+        </div>
+
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
